@@ -4,16 +4,18 @@ body {
 
 header {
     background: #131313;
-    height: 80px;
+    height: 75px;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+
 }
 
 .title {
-    display: flex;
-    align-items: center;
-}
-
-.title h1 {
     margin: 0;
+    font-size: 24pt;
     padding: 20px;
     color: white;
 }
@@ -31,27 +33,30 @@ nav ul {
 
 nav ul li {
     margin-left: 30px;
-    font-size: 18pt;
+    font-size: 14pt;
 }
 
 .main_img {
     align-items: center;
     display: flex;
-    height: 500px;
+    height: 415px;
     background-image: url("studying.jpg");
     background-size: cover;
 }
 
 .main_img h1 {
-    color: rgb(31, 31, 31);
+    color: white;
     font-size: 40pt;
-    padding-left: 60px;
+    padding-left: 100px;
+}
+
+.courses_title {
+    text-align: center;
 }
 
 .physics_7_9 {
-    width: 600px;
-    height: 400px;
-    padding-top: 100px;
+    width: 480px;
+    height: 240px;
     padding-left: 30px;
     display: flex;
     flex-direction: column;
@@ -59,14 +64,14 @@ nav ul li {
 
 .physics_7_9_preview {
     width: 100%;
-    height: 168px;
+    height: 100px;
 }
 
 .physics_7_9_content {
     background-color: #131313;
     padding: 15px 30px;
     color: white;
-    height: 150px;
+    height: 140px;
 }
 
 .physics_7_9 h2 {
